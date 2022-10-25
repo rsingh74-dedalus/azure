@@ -1,4 +1,4 @@
-<mxfile modified="2022-10-25T09:39:34.179Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1TnwJpFYqMBE4uWn18lR" version="20.4.0" type="github">
+<mxfile modified="2022-10-25T09:45:07.008Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="s55Sz-CQ4_V2JyTA1spQ" version="20.4.0" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -67,6 +67,12 @@
         </mxCell>
         <mxCell id="rdUxxYy60Ni9qJ_8C95A-2" value="HTTP Invoke" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="244" y="119" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rdUxxYy60Ni9qJ_8C95A-5" value="&lt;h1&gt;Assumptions&lt;/h1&gt;&lt;div&gt;1. Queue not to be considered&lt;/div&gt;&lt;div&gt;2. Jobs updated to DB by another process (possibly another Function App?)&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rdUxxYy60Ni9qJ_8C95A-6" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;div&gt;1. Premium plan hosting allows upto 100 instances (auto-scaled)&lt;/div&gt;&lt;div&gt;2. Having always-on and pre-warmed instances prevents any delays due to function app spawning&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
